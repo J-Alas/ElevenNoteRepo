@@ -39,6 +39,7 @@ namespace ElevenNote.Data
             modelBuilder
                 .Conventions
                 .Remove<PluralizingTableNameConvention>();
+
             modelBuilder
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
